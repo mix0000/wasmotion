@@ -14,8 +14,7 @@
     "preview": "cross-env NODE_ENV=production PROXY=true MODE=preview vite preview --host 0.0.0.0",
     "lint": "pnpm exec eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "ts:check": "tsc --noEmit",
-    "dev:install-hooks": "if [ -z \"$CI\" ]; then lefthook install; fi"
+    "ts:check": "tsc --noEmit"
   },
   "engines": {
     "node": "^22",

@@ -1,6 +1,7 @@
 /* eslint-disable import/default */
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /// <reference types="vitest" />
+/// <reference types="vite-plugin-svgr/client" />
 
 import viteLegacyPlugin from '@vitejs/plugin-legacy';
 import react from '@vitejs/plugin-react';
