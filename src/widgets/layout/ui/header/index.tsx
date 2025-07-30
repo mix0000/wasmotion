@@ -17,7 +17,7 @@ export const Header = observer(() => {
         to={model.homeUrl}
         className={'my-auto flex flex-row items-center gap-2'}
       >
-        <h1>{model.projectName}</h1>
+        <h1 className={'font-black tracking-widest'}>{model.projectName}</h1>
       </Link>
     </div>
   );
