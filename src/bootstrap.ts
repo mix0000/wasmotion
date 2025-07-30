@@ -2,8 +2,6 @@ import '@/app/styles/tailwind.css';
 
 import '@/app/styles/globals.scss';
 
-import 'simplebar-react/dist/simplebar.min.css';
-
 import '@/shared/config';
 
 /**

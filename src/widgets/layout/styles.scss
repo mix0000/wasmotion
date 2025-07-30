@@ -1,9 +1,0 @@
-.layout {
-  .g-breadcrumbs:has(.g-breadcrumbs__item_current:last-child .g-text.virtual) {
-     > .g-breadcrumbs__item:has(+.g-breadcrumbs__item_current) {
-      .g-breadcrumbs__divider:last-child {
-        display: none;
-      }
-     }
-  }
-}
