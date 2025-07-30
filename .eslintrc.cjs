@@ -47,12 +47,6 @@ module.exports = {
         },
       },
     },
-    {
-      files: ['api-codegen/*.js', 'api-codegen/*.cjs'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
-    },
   ],
   parser: '@typescript-eslint/parser',
   extends: [

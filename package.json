@@ -15,9 +15,7 @@
     "lint": "pnpm exec eslint .",
     "lint:fix": "npm run lint -- --fix",
     "ts:check": "tsc --noEmit",
-    "dev:install-hooks": "if [ -z \"$CI\" ]; then lefthook install; fi",
-    "dev:api-codegen": "mobx-tanstack-query-api",
-    "dev:api-codegen:watch": "nodemon --delay 0.5 --watch openapi.yaml --exec \"pnpm dev:api-codegen\""
+    "dev:install-hooks": "if [ -z \"$CI\" ]; then lefthook install; fi"
   },
   "engines": {
     "node": "^22",
