@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html body *.text-inherit.text-inherit {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+  }
+  
+  html body *.break-words {
+    word-break: break-word;
+  }
+}

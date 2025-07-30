@@ -1,0 +1,11 @@
+*.config.js
+*.config.ts
+*.config.cjs
+*.config.mjs
+*.config.mts
+*.config.json
+*config.json
+*config.*.json
+.eslintrc.cjs
+api-codegen
+node_modules

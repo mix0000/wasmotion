@@ -1,0 +1,21 @@
+[lint.header]
+# Why this is needed read the docs  
+# https://www.conventionalcommits.org/en/v1.0.0/#summary
+type-enum = ["chore", "ci", "feat", "fix", "refactor", "style", "test", "docs"]
+description-case = "lower-first"
+description-max-length = 86
+description-min-length = 8
+description-full-stop = true
+type-required = true
+
+[lint.body]
+max-line-length = 86
+case = "upper-first"
+
+[lint.footer]
+breaking-exclamation = true
+
+[[additional-footers]]
+key = "Ticket-ID"
+branch-pattern = "(?:.*)[/_](?<TICKET_ID>[A-Z0-9-]+)[/_]?(?:.*)"
+value = "${{ TICKET_ID }}"
